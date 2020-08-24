@@ -28,3 +28,19 @@
 - Literals: `console.log('this is a literal')`
 - Variable: `var x = 'this is a variable`
     - `console.log(x)`
+
+- variables can start with:
+    - $, _, or A a Z z
+
+
+- arrays
+    - `var cars = ['bmw', 'honda', 'toyota']`
+    - `console.log(cars[0])`
+
+- objects
+    - ```var person = {
+        firstName: 'jenner',
+        lastName: 'dulce',
+        age: 27;```
+    }
+    - `console.log(person.firstName)`
