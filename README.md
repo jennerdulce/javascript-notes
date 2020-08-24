@@ -44,3 +44,16 @@
         age: 27;```
     }
     - `console.log(person.firstName)`
+
+- var vs let vs const
+- var is global
+- let and const are block
+    - see youtube video in Javascript [Guide](https://www.youtube.com/watch?v=dzEieWaOJE0&t=14s)
+    - [Hoisting](https://www.youtube.com/watch?v=j-9_15QBW2s)
+
+- 
+``` typeof undefined   // undefined
+    typeof null        // object
+
+    null === undefined // false
+    nule == underfined // true ```
