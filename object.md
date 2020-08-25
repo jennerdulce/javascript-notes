@@ -1,4 +1,4 @@
-### objects:
+# objects:
 - a car has properties like weight and color
 - a cary also has methods like start and stop
 - all cars can hae the same properties, but different values for each car
@@ -17,3 +17,17 @@
   eyeColor: "blue",
   id: 0684504
 };```
+
+- Methods are actions that can be performed on objects.
+- Methods are stored in properties as function definitions.
+- Do Not Declare Strings, Numbers, and Booleans as Objects!
+
+
+## this keyword
+- in a function definition. `this` refers to the 'owner' of the function `person`
+- `this.firstName means the firstName property of this object.`
+
+### accessing object methods
+- `objectName.methodName()`
+- `name = person.fullName`();
+
