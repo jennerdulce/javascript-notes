@@ -51,9 +51,17 @@
     - see youtube video in Javascript [Guide](https://www.youtube.com/watch?v=dzEieWaOJE0&t=14s)
     - [Hoisting](https://www.youtube.com/watch?v=j-9_15QBW2s)
 
-- 
-``` typeof undefined   // undefined
+- ``` typeof undefined   // undefined
     typeof null        // object
 
     null === undefined // false
     nule == underfined // true ```
+
+
+### functions:
+- block of code deigned to perform a particular task
+- function is executed when is invoked/called
+    - clicks a button
+    - called from javascript code
+    - automatically
+

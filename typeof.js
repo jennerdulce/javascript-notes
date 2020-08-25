@@ -27,6 +27,7 @@ var DEFAULT_RATE = 0.1;
 let rate = 0.05;
 
 function getRate() {
+    // because of hoisting `var rate = ` will not work
     if (!rate) {
         let rate = DEFAULT_RATE;
     }
