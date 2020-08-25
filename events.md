@@ -1,0 +1,17 @@
+- HTML events are "things" that happen to HTML elements.
+    - When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+    - Here are some examples of HTML events:
+        -  An HTML web page has finished loading
+        - An HTML input field was changed
+        - An HTML button was clicked
+- Often, when events happen, you may want to do something.
+-  JavaScript lets you execute code when events are detected.
+
+- Common HTML events:
+    - onchange: An HTML element has been changed
+    - onclick: The user clicks an HTML element
+    - onmouseover: The user moves the mouse over an HTML element
+        - `<div onmouseover="this.style.backgroundColor='red'">myDIV.</div>`
+    - onmouseout: The user moves the mouse away from an HTML element
+    - onkeydown: The user pushes a keyboard key
+    - onload: The browser has finished loading the page
