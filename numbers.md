@@ -13,3 +13,12 @@
 - `Number(argument)`: converts number from its argument
 - `parseInt()`: parses a string and returns a WHOLE number
 - `pareseFloat()`: 
+
+### number properties: 
+- Number Properties Cannot be Used on Variables
+
+- `MAX_VALUE`: returns the largest number
+- `MIN_VALUE`: smallest number
+- `POSITIVE_INFINITY`
+- `NEGATIVE_INFINITY`
+- `NaN`
