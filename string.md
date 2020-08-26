@@ -28,8 +28,16 @@
 
 ### extracting string characters
 - `charAt(index)`
-- `charCodeAt(index)`
-    - property access[]
+    - index = specific position you want
+- `charCodeAt(index)` 
+    - returns unicode
+    - property access
+    - str[index]
 
 ### extra methods
-- `trim()`: removes white space
+- `somestring.trim()`: removes white space
+
+### convert string to an array
+- `txt.split(',')` split on commas
+- `txt.split(' ')` split on spaces
+- `txt.split('|')` split on pipe

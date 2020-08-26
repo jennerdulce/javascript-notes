@@ -50,3 +50,18 @@ function makeLower(sentence) {
     '<b> make lower case: </b>' + text1;
 }
 makeLower('THIS SENTENCE IS ORIGINALLY IN ALL CAPS')
+
+
+// ====================================================
+
+// convert string to array
+var str2 = "red, blue, green, red, orange, yellow, red";
+var letters = 'this is one sentence'
+
+function splitString() {
+    // var arr = str2.split(',');
+    var arr = letters.split('');
+    document.getElementById('demo5').innerHTML =
+    '<b>convert string to array: </b>' + arr;
+}
+splitString()
