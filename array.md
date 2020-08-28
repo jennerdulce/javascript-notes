@@ -9,11 +9,25 @@
     myArray[1] = myFunction;
     myArray[2] = myCars;```
 
-### array property and methods
+# array property and methods
 - `array.length`: returns number of elements in array
     - `var last = array.length[array.length - 1]`: access the last array element
 
 - `array.sort()`: sorts arrays in abc order
 
 
-### adding array elements
+# adding array elements
+- `array.push('elementname')`
+    - adds to the end of the list.
+- `array[array.length] = 'element name'`
+- you can start out with an empty list `var arraylist = []`
+    - and then add after `arraylist.push()` or `arraylist[0] = element`
+- `typeof` returns an array as an object
+    - use `Array.isArray(arraylist)` returns true
+    - `fruits instanceof Array` returns true
+
+## object vs array
+- array use number index   
+    - use objects when you want element names to be numbers
+- object use name index
+    - use objects when you want element names to be strings
