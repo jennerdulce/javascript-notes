@@ -12,5 +12,8 @@
 ### array property and methods
 - `array.length`: returns number of elements in array
     - `var last = array.length[array.length - 1]`: access the last array element
-    
+
 - `array.sort()`: sorts arrays in abc order
+
+
+### adding array elements

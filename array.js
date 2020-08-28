@@ -42,7 +42,9 @@ document.getElementById('demo4').innerHTML =
 // ===========================================
 
 // forEach()
-var fruits = ['apple', 'orange', 'berry', 'mango', 'pineapple']
+var fruits, txt;
+
+fruits = ['apple', 'orange', 'berry', 'mango', 'pineapple']
 txt = '<ul>';
 fruits.forEach(displayList);
 txt += '</ul>';
@@ -53,3 +55,4 @@ document.getElementById('demo5').innerHTML =
 function displayList(value) {
     txt += '<li>' + value + '</li>'
 }
+
