@@ -62,3 +62,38 @@
         - able to remove elements in the middle of an array
         - `var colors = ['red', 'blue', 'green', 'yellow']`
         -  `colors.splice(2, 1)` removes 1 element starting at the [2] index. in this case, the element being removed is green
+
+## merging concatenating arrays
+- `concat()` combinds 2 arrays
+    - `array1.concat(array2)
+    - `array1.concat('elementname')`
+        - can also add individual elements like push or shift
+
+## slice
+- `slice()` slices out a piece of an array into a NEW ARRAY
+    - does not remove any elements from the source array.
+    - slice can take 2 arguments
+    - `slice(1, 3)` selects elements for the start of the argument and up to (not including) the end argument
+    - `slice(2)` if second argument omitted, will slice the rest of the array
+
+
+# Sorting arrays
+
+## sorting strings
+- `sort()`
+- `reverse()`
+    - its good to `sort()` first and then `reverse()` to get elements in proper order
+
+## sorting numbers
+-  use compare function
+```
+array.sort(function(a, b) {
+    return a - b
+})
+
+array.sort(function(a, b) {
+    return b - a
+})
+```
+
+- using `.sort() for an array of numbers will see errors`

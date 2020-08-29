@@ -120,3 +120,54 @@ function spliceArray(num1, num2) {
 
 spliceArray(2, 1) // removes red
 spliceArray(3, 2) // removes orange and yellow
+
+
+
+function concatArrays() {
+    var myGirls = ['jennifer', 'julia', 'janet'];
+    var myBoys = ['alex', 'adam', 'anthony'];
+    var myPets = ['dog', 'cat', 'fish']
+    var myChildren = myGirls.concat(myBoys); // combining 2 arrays
+    var myFamily = myGirls.concat(myBoys, myPets) // combining multiple arrays
+    document.getElementById('demo11').innerHTML = 
+    '<b>combind myGirls and myBoys: </b>' + myChildren + '<br>' +
+    '<b>typeof myChildren: </b>' + typeof myChildren + '<br>' +
+    '<b>length of myChildren: </b>' + myChildren.length + '<br>' + 
+    '<b>combind multiple arrays: </b>' + myFamily + '<br>' ;
+}
+
+concatArrays()
+
+
+// ===========================================
+
+// sorting arrays
+var numList = [123, 423, 565, 1, 35, 67, 2341]
+
+function sortNumberList() {
+    numList.sort(function(a, b) {
+        return a - b});
+
+    document.getElementById('demo12').innerHTML = 
+    '<b> sorting number list (ascending) </b>: ' + numList;
+}
+
+function descendingNumberList() {
+    numList.sort(function(a, b){
+        return b - a});
+
+    document.getElementById('demo13').innerHTML =
+    '<b> sorting number list (descending) </b>: ' + numList;
+}
+
+sortNumberList()
+descendingNumberList()
+
+function sortStrings() {
+    var myPets = ['dog', 'cat', 'fish']
+    myPets.sort();
+    document.getElementById('demo14').innerHTML = 
+    '<b> sorting string list</b>: '+ myPets
+}
+
+sortStrings()
