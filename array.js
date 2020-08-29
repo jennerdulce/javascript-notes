@@ -73,4 +73,50 @@ function addingArray() {
     animals[animals.length] = 'zebra'; // adds zebra
     document.getElementById('demo6').innerHTML = 
     '<b>adding elements to an array: </b><br>' + animals;
+    
 }
+
+
+// ===========================================
+
+// converting arrays to strings
+
+let newColors = ['blue', 'purple', 'red', 'green', 'orange', 'yellow'];
+
+function makeString() {
+    let colorToString = newColors.toString();
+
+    document.getElementById('demo7').innerHTML =
+    '<b>====Array To String====</b><br>' +
+    '<b>array newColors: </b>' + newColors + '<br>' +
+    '<b>typeof newColors: </b>' + typeof newColors + '<br>' +
+    '<b>length of newColors array: </b>' + newColors.length + '<br>' +
+    '<b>==== Executed colors.toString()======</b>' + '<br>' +
+    '<b>colorToString: : </b>' + colorToString + '<br>' +
+    '<b>typeof colorToString: </b>' + typeof colorToString + '<br>' +
+    '<b>length of colorToString: </b>' + colorToString.length + '<br>' ;
+}
+makeString()
+
+function executeJoinArray() {
+    let joinArray = newColors.join(' ');
+    document.getElementById('demo8').innerHTML =
+    '<b> using .join(): </b>' + joinArray + '<br>' +
+    '<b>typeof joinArray: </b>' + typeof joinArray + '<br>' +
+    '<b>length of joinArray array: </b>' + joinArray.length ;
+}
+
+executeJoinArray()
+
+document.getElementById('demo9').innerHTML =
+'<b>Original list: </b>' + newColors;
+
+function spliceArray(num1, num2) {
+    var removedElements = newColors.splice(num1, num2);
+    document.getElementById('demo10').innerHTML =
+    '<b>New list: </b>' + newColors + '<br>' +
+    '<b>Removed items: <b>' + removedElements;
+}
+
+spliceArray(2, 1) // removes red
+spliceArray(3, 2) // removes orange and yellow

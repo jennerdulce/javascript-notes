@@ -54,14 +54,24 @@ makeLower('THIS SENTENCE IS ORIGINALLY IN ALL CAPS')
 
 // ====================================================
 
-// convert string to array
-var str2 = "red, blue, green, red, orange, yellow, red";
-var letters = 'this is one sentence'
+//convert string to array
+
+let colors = 'i like the color blue';
 
 function splitString() {
-    // var arr = str2.split(',');
-    var arr = letters.split('');
+    let colorArray = colors.split(' ');
+
     document.getElementById('demo5').innerHTML =
-    '<b>convert string to array: </b>' + arr;
+    '<b>====String to Array====</b><br>' +
+    '<b>string colors: </b>' + colors + '<br>' +
+    '<b>typeof colors: </b>' + typeof colors + '<br>' +
+    '<b>length of colors array: </b>' + colors.length + '<br>' +
+    '<b>==== Executed colors.split(" ")=====</b>' + '<br>' +
+    '<b>colorArray: : </b>' + colorArray + '<br>' +
+    '<b>typeof colorArray: </b>' + typeof colorArray + '<br>' +
+    '<b>length of colorArray: </b>' + colorArray.length + '<br>' ;
+    
+
 }
 splitString()
+
