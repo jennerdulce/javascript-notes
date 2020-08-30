@@ -103,3 +103,18 @@ array.sort(function(a, b) {
 - ```array.sort(function(a, b) {
     return 0.5 - Math.random()
 })```
+
+## how to immediately find the highest or lowest number in an array
+
+<!-- ``` function myArrayMax(arr) {
+    return Math.max.apply(null, arr);
+} myArrayMax(array)```
+
+``` function myArrayMin(arr) {
+  return Math.min.apply(null, arr);
+}myArrayMin(array)``` -->
+
+
+## date
+- `.getFullYear()`
+- `.getMonth()`
