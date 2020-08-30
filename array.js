@@ -171,3 +171,24 @@ function sortStrings() {
 }
 
 sortStrings()
+
+document.getElementById('demo15').innerHTML =
+'<b>random list</b>: ' + numList;
+
+function randomOrder() {
+    numList.sort(function(a, b) {
+        return 0.5 - Math.random()
+    })
+    document.getElementById('demo15').innerHTML =
+    '<b>random list</b>: '+ numList
+}
+
+var carz = [
+    {type:"Volvo", year:2016},
+    {type:"Saab", year:2001},
+    {type:"BMW", year:2010}
+  ];
+
+  carz.sort()
+  document.getElementById('demo16').innerHTML =
+  carz

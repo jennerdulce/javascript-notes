@@ -97,3 +97,9 @@ array.sort(function(a, b) {
 ```
 
 - using `.sort() for an array of numbers will see errors`
+
+
+## arrange in a NUMBERS random order
+- ```array.sort(function(a, b) {
+    return 0.5 - Math.random()
+})```
