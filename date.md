@@ -1,0 +1,9 @@
+- `var today = new Date()`
+    - by default when you create a Date object, it will hold today's date and the current time
+    - if you want it to store another date, you must specify the time and date.
+    - time and date determined by COMPUTERS clock
+    - has own Date object methods to use, to retrieve different parts of information
+        - month, year, time etc.
+    - `var dob = new Date(1993, 01, 14);`
+    - `var dob = new Date('Jan 14, 1993')`
+    - `Math.floor()` it is important to round numbers down and not up

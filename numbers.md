@@ -1,7 +1,7 @@
 <!-- // returns number as a string -->
 - `toString()`
-- `toFixed(number of decimals)`
-- `toPrecise(# of digits)`
+- `toFixed(number of decimals)` // returns as a string
+- `toPrecise(# of digits)` // returns as string
 
 <!-- // returns number as a number -->
 - `valueOf(#)`
