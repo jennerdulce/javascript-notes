@@ -69,7 +69,9 @@ function splitString() {
     '<b>==== Executed colors.split(" ")=====</b>' + '<br>' +
     '<b>colorArray: : </b>' + colorArray + '<br>' +
     '<b>typeof colorArray: </b>' + typeof colorArray + '<br>' +
-    '<b>length of colorArray: </b>' + colorArray.length + '<br>' ;
+    '<b>length of colorArray: </b>' + colorArray.length + '<br>' +
+    'colorArray[3] = ' + colorArray[3] + '<br>' +
+    'colorArray[1] = ' + colorArray[1];
     
 
 }
